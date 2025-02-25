@@ -58,15 +58,27 @@ ________________
 * Important
 
       Start from the client because, when server is started first, client does not start.
-* Run Client
 
-      cd client  
-      npm run dev
+* Before running Client first time
+   ```
+   cd client
+   npm install
+   ```
+   
+* Run Client
+      
+  ```
+  cd client  
+  npm run dev
+  ```
 * Run Server    
     To publish use ```sbt publishlocal``` but it is not required
         
       sbt server/run
+
 * Refresh Client
+
+
 ________________
 
 # References:
